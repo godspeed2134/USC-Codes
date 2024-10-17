@@ -1,0 +1,213 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('image/img3.jpg') center/cover;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background: transparent;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 1.4rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    background-color: #ff4757;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 1rem;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #ff6b81;
+}
+
+/* About Section */
+.about-section {
+    color: whitesmoke;
+    padding: 60px 20px;
+    background-color: #000000;
+    text-align: center; 
+}
+
+.about-section h2 {
+    color: rgba(65, 101, 231, 0.592);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Speakers Section */
+.speakers-section {
+    color: rgb(0, 0, 0);
+    background-color: #000000   ;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.speakers-section h2 {
+    color:  rgba(65, 101, 231, 0.592);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.speaker-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.speaker-card {
+    background-color: rgba(193, 194, 199, 0.905);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+}
+
+.speaker-card img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.speaker-card h3 {
+    margin: 15px 0;
+}
+
+/* Schedule Section */
+.schedule-section {
+    padding: 60px 20px;
+    background-color: #000000;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.schedule-section h2 {
+    color: rgba(65, 101, 231, 0.592);
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.schedule-list {
+    list-style: none;
+}
+
+.schedule-list li {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+/* Registration Section */
+.register-section {
+    padding: 60px 20px;
+    background-color: #000000;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.register-section h2 {
+    color: rgba(65, 101, 231, 0.592);
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.register-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-form button {
+    padding: 10px;
+    font-size: 1.2rem;
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+.register-form button:hover {
+    background-color: #ff6b81;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
